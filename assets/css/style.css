@@ -1469,3 +1469,17 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+#hero p{
+  color: #ffffff;
+}
+.details-header{
+  color: #009970;
+  font-weight: 600;
+}
+.content-details h3{
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000000;
+}
