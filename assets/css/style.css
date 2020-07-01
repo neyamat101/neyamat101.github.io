@@ -491,6 +491,8 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  text-align: justify;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -630,7 +632,7 @@ section {
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
   color: #009970;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .why-us .icon-boxes .icon-box h4 {
