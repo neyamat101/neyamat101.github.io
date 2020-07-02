@@ -1506,6 +1506,20 @@ section {
   list-style-type: none;
 }
 
-.click-more{
-  font-size: 14px;
+.why-us .read-btn:hover,
+.services .details-btn:hover {
+color: #fff;
+background: #009970;
+}
+
+.why-us .read-btn,
+.services .details-btn {
+display: inline-block;
+background: rgba(255, 255, 255, 0.1);
+padding: 6px 20px 8px 20px;
+color: #009970;
+font-size: 13px;
+border: 1px solid #009970;
+border-radius: 50px;
+transition: all ease-in-out 0.4s;
 }
