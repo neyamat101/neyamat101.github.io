@@ -1528,3 +1528,128 @@ transition: all ease-in-out 0.4s;
     width: 100%;
     height: 270px;
 }
+.faq .faq-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li + li {
+  margin-top: 15px;
+}
+
+.faq .faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+}
+
+.faq .faq-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #9cdc66;
+}
+
+.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.faq .faq-list .icon-show {
+  display: none;
+}
+
+.faq .faq-list a.collapsed {
+  color: #343a40;
+}
+
+.faq .faq-list a.collapsed:hover {
+  color: #5c9f24;
+}
+
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .faq .faq-list {
+    padding: 0;
+  }
+}
+
+.product-tr{
+  background: #009970;
+  color: #ffffff;
+}
+.table thead th,
+.table tbody td{
+  vertical-align: middle;
+}
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+/* Force table to not be like tables anymore */
+table, thead, tbody, th, td, tr {
+display: block;
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr {
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+
+#pharma-details tr { border: 1px solid #ccc; }
+
+#pharma-details tr td {
+/* Behave like a "row" */
+border: none;
+/* border-bottom: 1px solid #eee; */
+position: relative;
+padding-left: 50%;
+}
+
+#pharma-details td:before {
+/* Now like a table header */
+position: absolute;
+/* Top/left values mimic padding */
+top: 6px;
+left: 6px;
+width: 45%;
+padding-right: 10px;
+white-space: normal;
+display: table;
+}
+
+#pharma-details td:nth-of-type(1):before { content: "Active Ingredient CAS Number"; }
+#pharma-details td:nth-of-type(2):before { content: "Therapeutic Areas"; }
+#pharma-details td:nth-of-type(3):before { content: "Available Grades"; }
+#pharma-details td:nth-of-type(4):before { content: "Regulatory Documentation"; }
+}
