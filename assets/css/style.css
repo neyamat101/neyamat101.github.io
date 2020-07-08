@@ -1636,6 +1636,10 @@ left: -9999px;
     padding-left: 45%;
     font-size: 13px;
 }
+  
+#pharma-details tr td:last-child {
+    min-height: 60px;
+}
 
 #pharma-details td:before {
 /* Now like a table header */
