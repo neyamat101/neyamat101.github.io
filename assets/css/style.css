@@ -1617,6 +1617,7 @@ only screen and (max-width: 760px),
 /* Force table to not be like tables anymore */
 table, thead, tbody, th, td, tr {
 display: block;
+vertical-align: top;
 }
 
 /* Hide table headers (but not display: none;, for accessibility) */
@@ -1629,20 +1630,20 @@ left: -9999px;
 #pharma-details tr { border: 1px solid #ccc; }
 
 #pharma-details tr td {
-/* Behave like a "row" */
-border: none;
-/* border-bottom: 1px solid #eee; */
-position: relative;
-padding-left: 50%;
+    border: none;
+    / border-bottom: 1px solid #eee; /
+    position: relative;
+    padding-left: 45%;
+    font-size: 13px;
 }
 
 #pharma-details td:before {
 /* Now like a table header */
 position: absolute;
 /* Top/left values mimic padding */
-top: 6px;
+/* top: 6px; */
 left: 6px;
-width: 45%;
+width: 40%;
 padding-right: 10px;
 white-space: normal;
 display: table;
