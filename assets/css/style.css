@@ -1631,7 +1631,7 @@ left: -9999px;
 
 #pharma-details tr td {
     border: none;
-    / border-bottom: 1px solid #eee; /
+    /* border-bottom: 1px solid #eee; */
     position: relative;
     padding-left: 45%;
     font-size: 13px;
