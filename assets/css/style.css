@@ -1500,6 +1500,8 @@ section {
 #pharma-details .content ul i {
   font-size: 20px;
   color: #009970;
+  position: relative;
+  top: 4px;
 }
 #pharma-details .content ul {
   list-style-type: none;
@@ -1594,6 +1596,21 @@ transition: all ease-in-out 0.4s;
 .faq .faq-list a.collapsed .icon-close {
   display: none;
 }
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #CAE6DE;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+.details-header i {
+  position: relative;
+  top: 3px;
+}
+
+
 
 @media (max-width: 1200px) {
   .faq .faq-list {
