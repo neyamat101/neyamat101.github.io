@@ -1644,21 +1644,21 @@ top: -9999px;
 left: -9999px;
 }
 
-#pharma-details tr { border: 1px solid #ccc; }
+.product-list tr { border: 1px solid #ccc; }
 
-#pharma-details tr td {
-    border: none;
-    /* border-bottom: 1px solid #eee; */
-    position: relative;
-    padding-left: 45%;
-    font-size: 13px;
-}
-  
-#pharma-details tr td:last-child {
+.product-list tr td {
+  border: none;
+  /* border-bottom: 1px solid #eee; */
+  position: relative;
+  padding-left: 45%;
+  font-size: 13px;
+  }
+
+  .product-list tr td:last-child {
     min-height: 60px;
 }
 
-#pharma-details td:before {
+.product-list td:before {
 /* Now like a table header */
 position: absolute;
 /* Top/left values mimic padding */
@@ -1670,8 +1670,8 @@ white-space: normal;
 display: table;
 }
 
-#pharma-details td:nth-of-type(1):before { content: "Active Ingredient CAS Number"; }
-#pharma-details td:nth-of-type(2):before { content: "Therapeutic Areas"; }
-#pharma-details td:nth-of-type(3):before { content: "Available Grades"; }
-#pharma-details td:nth-of-type(4):before { content: "Regulatory Documentation"; }
+.product-list td:nth-of-type(1):before { content: "Active Ingredient CAS Number"; }
+.product-list td:nth-of-type(2):before { content: "Therapeutic Areas"; }
+.product-list td:nth-of-type(3):before { content: "Available Grades"; }
+.product-list td:nth-of-type(4):before { content: "Regulatory Documentation"; }
 }
