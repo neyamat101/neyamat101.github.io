@@ -835,7 +835,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 0;
   margin: 0;
   font-style: italic;
@@ -1488,15 +1488,15 @@ section {
 
 #products .portfolio-wrap .portfolio-info{
   opacity: 1;
-  background-color: rgba(42, 42, 42, 0.7);
+  /*background-color: rgba(42, 42, 42, 0.7);*/
 }
-#products .portfolio-wrap:hover .portfolio-info {
+/*#products .portfolio-wrap:hover .portfolio-info {
     opacity: 0.5;
     background: none !important;
 }
 #products .portfolio-wrap {
     background: none !important;
-}
+}*/
 #pharma-details .content ul i {
   font-size: 20px;
   color: #009970;
