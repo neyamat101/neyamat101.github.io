@@ -1497,13 +1497,13 @@ section {
 #products .portfolio-wrap {
     background: none !important;
 }*/
-#pharma-details .content ul i {
+#pharma-details .content ul i, #minerals-details .content ul i {
   font-size: 20px;
   color: #009970;
   position: relative;
   top: 4px;
 }
-#pharma-details .content ul {
+#pharma-details .content ul, #minerals-details .content ul {
   list-style-type: none;
 }
 
