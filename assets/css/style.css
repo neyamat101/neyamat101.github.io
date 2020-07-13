@@ -1675,3 +1675,22 @@ display: table;
 .product-list td:nth-of-type(3):before { content: "Available Grades"; }
 .product-list td:nth-of-type(4):before { content: "Regulatory Documentation"; }
 }
+
+
+
+
+
+.chemical-items .portfolio-wrap .img-fluid{
+  min-height: 168px;
+}
+#chemicals-details .portfolio-wrap .portfolio-info{
+  opacity: 0.5;
+  background-color: #009970;
+}
+#chemicals-details .portfolio-wrap:hover .portfolio-info {
+    opacity: 0.7;
+    background: #009970;
+}
+#chemicals-details .portfolio-wrap {
+    background: none !important;
+}
