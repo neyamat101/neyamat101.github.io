@@ -413,6 +413,10 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+#hero p{
+  color: #ffffff;
+}
+
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -471,6 +475,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+#hero-details p{
+  color: #ffffff;
 }
 
 #hero-details .btn-get-started {
@@ -1569,9 +1577,6 @@ section {
   text-decoration: none;
 }
 
-#hero p{
-  color: #ffffff;
-}
 .details-header{
   color: #009970;
   font-weight: 600;
