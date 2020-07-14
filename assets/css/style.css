@@ -1791,3 +1791,16 @@ display: table;
 #chemicals-details .portfolio-wrap {
     background: none !important;
 }
+
+.services  ul li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.services ul i {
+  padding-right: 2px;
+  color: #00c28e;
+  font-size: 18px;
+  line-height: 1;
+}
