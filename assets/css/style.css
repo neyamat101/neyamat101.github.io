@@ -1128,7 +1128,8 @@ section {
   padding: 60px 0;
 }
 
-.content-color{
+.contact h2, 
+.contact p {
   color: #ffffff;
 }
 
