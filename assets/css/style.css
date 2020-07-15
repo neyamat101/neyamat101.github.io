@@ -1777,6 +1777,9 @@ transition: all ease-in-out 0.4s;
   .product-section .section-title {
     padding-bottom: 0;
   }
+  .product-section {
+    padding-bottom: 0;
+  }
 }
 
 @media (max-width: 1200px) {
