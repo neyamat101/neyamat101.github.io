@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo {
   overflow: hidden;
-  padding: 16px 30px 12px 30px;
+  padding: 16px 20px 12px 20px;
   background: #009970;
 }
 
@@ -249,8 +249,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
-  top: 15px;
+  right: 20px;
+  top: 22px;
   z-index: 9998;
   border: 0;
   background: none;
