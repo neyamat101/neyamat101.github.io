@@ -250,11 +250,11 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 20px;
-  top: 22px;
+  top: 16px;
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 22px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
@@ -1767,11 +1767,14 @@ transition: all ease-in-out 0.4s;
 }
 
 @media (max-width: 768px){
+  section{
+    padding-top: 60px;
+  }
   #header .logo {
-    padding: 16px 20px 12px 20px;
+    padding: 10px 20px 10px 20px;
   }
   .product-section {
-    padding: 20px 0;
+    padding-bottom: 0;
   }
 }
 
