@@ -1774,7 +1774,7 @@ transition: all ease-in-out 0.4s;
   #header .logo {
     padding: 10px 20px 10px 20px;
   }
-  .product-section {
+  .product-section .section-title {
     padding-bottom: 0;
   }
 }
