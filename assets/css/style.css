@@ -1883,3 +1883,5 @@ display: table;
   font-size: 18px;
   line-height: 1;
 }
+
+#products-for-five-solutions-details.product-list td:nth-of-type(1) { text-transform: uppercase; }
