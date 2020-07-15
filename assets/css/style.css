@@ -1783,6 +1783,12 @@ transition: all ease-in-out 0.4s;
   vertical-align: middle;
 }
 
+@media (max-width: 768px){
+  #header .logo {
+    padding: 16px 20px 12px 20px;
+  }
+}
+
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px) {
