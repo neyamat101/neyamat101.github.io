@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo {
   overflow: hidden;
-  padding: 16px 20px 12px 20px;
+  padding: 16px 30px 12px 30px;
   background: #009970;
 }
 
@@ -1766,7 +1766,11 @@ transition: all ease-in-out 0.4s;
   top: 3px;
 }
 
-
+@media (max-width: 768px){
+  #header .logo {
+    padding: 16px 20px 12px 20px;
+  }
+}
 
 @media (max-width: 1200px) {
   .faq .faq-list {
@@ -1781,12 +1785,6 @@ transition: all ease-in-out 0.4s;
 .table thead th,
 .table tbody td{
   vertical-align: middle;
-}
-
-@media (max-width: 768px){
-  #header .logo {
-    padding: 16px 20px 12px 20px;
-  }
 }
 
 @media
