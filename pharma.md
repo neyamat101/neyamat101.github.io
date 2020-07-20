@@ -1,11 +1,5 @@
 ---
 layout: pharma
-title: Details
+title: Products
 permalink: /pharma/
 ---
-
-<!-- ---
-layout: details
-title: Details
-permalink: /details/
---- -->
