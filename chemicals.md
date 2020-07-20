@@ -1,5 +1,5 @@
 ---
 layout: chemicals
-title: Details
+title: Products
 permalink: /chemicals/
 ---
