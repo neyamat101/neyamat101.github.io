@@ -1,5 +1,5 @@
 ---
 layout: chemicals
-title: Products
+title: TOP RANK || Products || The Science of Agency
 permalink: /chemicals/
 ---
