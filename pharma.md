@@ -1,5 +1,5 @@
 ---
 layout: pharma
-title: Products
+title: TOP RANK || Products || The Science of Agency
 permalink: /pharma/
 ---
