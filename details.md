@@ -1,5 +1,5 @@
 ---
 layout: details
-title: Details
+title: TOP RANK || Details || The Science of Agency
 permalink: /details/
 ---
