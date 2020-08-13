@@ -11,7 +11,14 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item">
                 <div class="portfolio-wrap">
-                    <img src="/assets/img/portfolio/pharma.webp" class="img-fluid" alt="Pharma">
+                    <!-- <img src="/assets/img/portfolio/pharma.webp" class="img-fluid" alt="Pharma"> -->
+
+                    <picture>
+                        <source media="(min-width:650px)" srcset="/assets/img/portfolio/pharma.webp">
+                        <source media="(min-width:465px)" srcset="/assets/img/portfolio/pharma.webp">
+                        <img src="/assets/img/portfolio/pharma.webp" alt="Pharma" class="img-fluid" style="width:auto;">
+                      </picture>
+
                     <a href="/pharma/#pharma-details" title="More Details">
                         <div class="portfolio-info">
                             <h4>PHARMA</h4>
