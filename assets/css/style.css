@@ -1900,3 +1900,25 @@ display: table;
 }
 
 #products-for-five-solutions-details.product-list td:nth-of-type(1) { text-transform: uppercase; }
+
+
+
+
+.product-title{
+  font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: rgba(42, 42, 42, 0.5);
+    margin-bottom: 0;
+    padding: 10px 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info .product-title {
+  background-color: transparent;
+}
+
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  margin-bottom: 0;
+}
